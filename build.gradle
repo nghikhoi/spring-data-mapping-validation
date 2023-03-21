@@ -1,0 +1,25 @@
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'maven-publish'
+
+    group = 'me.nghikhoi.spring-data-mapping-validation'
+    version = '0.0.1-SNAPSHOT'
+
+    sourceCompatibility = 1.17
+    targetCompatibility = 1.17
+
+    configurations {
+        compileOnly {
+            extendsFrom annotationProcessor
+        }
+    }
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+}

@@ -1,0 +1,25 @@
+Benchmark                                                                           Mode      Cnt        Score       Error  Units
+ArgumentMappingValidationBenchmark.autoGenerateHandle                              thrpt      200  1379132.794 ± 43632.331  ops/s
+ArgumentMappingValidationBenchmark.defaultHandle                                   thrpt      200  1460288.631 ± 29386.403  ops/s
+ArgumentMappingValidationBenchmark.autoGenerateHandle                               avgt      200       ≈ 10⁻⁶               s/op
+ArgumentMappingValidationBenchmark.defaultHandle                                    avgt      200       ≈ 10⁻⁶               s/op
+ArgumentMappingValidationBenchmark.autoGenerateHandle                             sample  5124481       ≈ 10⁻⁶               s/op
+ArgumentMappingValidationBenchmark.autoGenerateHandle:autoGenerateHandle·p0.00    sample                ≈ 10⁻⁶               s/op
+ArgumentMappingValidationBenchmark.autoGenerateHandle:autoGenerateHandle·p0.50    sample                ≈ 10⁻⁶               s/op
+ArgumentMappingValidationBenchmark.autoGenerateHandle:autoGenerateHandle·p0.90    sample                ≈ 10⁻⁶               s/op
+ArgumentMappingValidationBenchmark.autoGenerateHandle:autoGenerateHandle·p0.95    sample                ≈ 10⁻⁶               s/op
+ArgumentMappingValidationBenchmark.autoGenerateHandle:autoGenerateHandle·p0.99    sample                ≈ 10⁻⁶               s/op
+ArgumentMappingValidationBenchmark.autoGenerateHandle:autoGenerateHandle·p0.999   sample                ≈ 10⁻⁴               s/op
+ArgumentMappingValidationBenchmark.autoGenerateHandle:autoGenerateHandle·p0.9999  sample                ≈ 10⁻³               s/op
+ArgumentMappingValidationBenchmark.autoGenerateHandle:autoGenerateHandle·p1.00    sample                 0.024               s/op
+ArgumentMappingValidationBenchmark.defaultHandle                                  sample  4731671       ≈ 10⁻⁶               s/op
+ArgumentMappingValidationBenchmark.defaultHandle:defaultHandle·p0.00              sample                ≈ 10⁻⁶               s/op
+ArgumentMappingValidationBenchmark.defaultHandle:defaultHandle·p0.50              sample                ≈ 10⁻⁶               s/op
+ArgumentMappingValidationBenchmark.defaultHandle:defaultHandle·p0.90              sample                ≈ 10⁻⁶               s/op
+ArgumentMappingValidationBenchmark.defaultHandle:defaultHandle·p0.95              sample                ≈ 10⁻⁶               s/op
+ArgumentMappingValidationBenchmark.defaultHandle:defaultHandle·p0.99              sample                ≈ 10⁻⁶               s/op
+ArgumentMappingValidationBenchmark.defaultHandle:defaultHandle·p0.999             sample                ≈ 10⁻⁴               s/op
+ArgumentMappingValidationBenchmark.defaultHandle:defaultHandle·p0.9999            sample                ≈ 10⁻⁴               s/op
+ArgumentMappingValidationBenchmark.defaultHandle:defaultHandle·p1.00              sample                 0.006               s/op
+ArgumentMappingValidationBenchmark.autoGenerateHandle                                 ss       10        0.007 ±     0.001   s/op
+ArgumentMappingValidationBenchmark.defaultHandle                                      ss       10        0.007 ±     0.001   s/op
